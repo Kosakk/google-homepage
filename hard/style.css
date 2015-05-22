@@ -1,0 +1,218 @@
+/*************************** HEADER CSS **********/
+
+header {
+	background-color: #f2f2f2;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+header img {
+	width: 100px;
+	float: left;
+	margin: 12px;
+}
+
+header input[type="text"] {
+	width: 450px;
+	margin-top: 10px;
+	line-height: 24px;
+}
+
+header input[type="submit"] {
+	background-color: #4a8bf5;
+	height: 30px;
+	float: left;
+	position: absolute;
+	top: 9px;
+	border: 0;
+	color: #fff;
+}
+
+
+header ul {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000	;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin: 15px 20px 20px;
+}
+
+header ul li {
+	display: inline;
+}
+
+#apps, #share { 
+	width: 50px;
+	height: 50px;
+	background-color: #777;
+}
+
+/*************************** top NAVBAR ***************/
+
+nav.top {
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+}
+
+nav ul { 
+	margin-left: 130px;
+}
+
+nav.top ul li {
+	display: inline-block;
+}
+
+nav.top ul li:active {
+	border-bottom: #dd4b39 5px solid;	
+}
+
+nav.top ul li a {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	color: #777777;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+nav.top ul li a:active {
+	color:#dd4b39;
+	font-weight: bold;
+}
+
+/*************************** main ********************/
+
+section {
+	width: 500px;
+	margin-left: 150px;
+	border-bottom: 1px solid #ddd;
+}
+
+section h2 { 
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 43px;
+	color: #808080;
+	padding-bottom: 10px;
+}
+
+article { 
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+article h3 {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1a0dab;
+}
+
+article p {
+	font-family arial, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	color: #006621;
+	font-weight: regular;
+}
+
+article span .date {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	color: #808080;
+}
+
+article h4 {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	color: #545454;
+}
+
+article h5 {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: #808080;
+}
+/*************************** related *****************/
+
+.related {
+	margin-left: 130px;
+	width: 500px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.related h2 {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: #808080;
+	margin: 20px;
+}
+
+.related table {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #1a0dab;
+	margin: 5px 20px;
+}
+
+.related table td {
+	padding-right: 15px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/*************************** bottom NAVBAR ***********/
+
+nav #G {
+	color: blue;
+	font-size: 50px;
+}
+
+nav .os {
+	color: yellow;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+nav .os:focus {
+	color: red;
+}
+
+/*************************** footer ******************/
+
+footer {
+	background-color: #f2f2f2;
+	display: inline-block;
+	width: 100%;
+	border-top: 1px solid #ddd;
+}
+
+footer ul { 
+	padding: 5px 5px 0px 130px;
+	margin: 5px 5px 0px 130px;
+}
+
+footer ul li { 
+	display: inline;
+	font-family: arial, sans-serif;
+	font-size:18px;
+	line-height: 15px;
+	color: #333;
+	padding-right: 20px;
+}
+
+footer ul li.greyed{ 
+	color: #aaa;
+}
